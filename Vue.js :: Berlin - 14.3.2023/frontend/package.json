@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/strapi": "^1.9.0",
+    "@nuxtjs/tailwindcss": "^6.5.0",
+    "daisyui": "^2.51.3",
+    "nuxt": "^3.2.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "pinia": "^2.0.33"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
